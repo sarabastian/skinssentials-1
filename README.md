@@ -1,24 +1,22 @@
-# README
+Welcome to skinssentials - your one stop shop for curating a custom skincare routine based on your unique skintype.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to get started...
 
-Things you may want to cover:
+clone this repository down onto your local machine and navigate to the root directory.
 
-* Ruby version
+in your terminal, follow the below steps:
 
-* System dependencies
+type the following commands in order: 
 
-* Configuration
+cd backend
+rails db:migrate && rails db:seed
+rails s -p 3000
 
-* Database creation
+open another terminal and follow the below steps to start the server: 
 
-* Database initialization
+cd frontend
+npm install
+npm install lite-server --save-dev
+npx lite-server
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+from there, you're all set to find your personalized regimen.
