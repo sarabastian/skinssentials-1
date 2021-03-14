@@ -1,22 +1,36 @@
 Welcome to skinssentials - your one stop shop for curating a custom skincare routine based on your unique skintype.
 
-How to get started...
+## Installation
 
-clone this repository down onto your local machine and navigate to the root directory.
 
-in your terminal, follow the below steps:
+Clone this repository down onto your local machine and navigate to the root directory.
 
-type the following commands in order: 
+```
+cd skinssentials
+```
+
+Navigate to the backend directory, migrate and seed the database, and start the server:
+
 ```
 cd backend
 rails db:migrate && rails db:seed
 rails s -p 3000
 ```
-open another terminal and follow the below steps to launch the server: 
+
+Open another terminal and from the root directory, navigate to the frontend directory, install the dependencies, and start the client server:
+
 ```
 cd frontend
 npm install
 npm install lite-server --save-dev
 npx lite-server
 ```
-from there, you're all set to find your personalized regimen.
+From there, you're on your way to creating a personalized regimen.
+
+## Contributing 
+
+Contributions are welcome. Feel free to open a pull request or branch from this project.
+
+## License 
+
+[MIT](https://choosealicense.com/licenses/mit/)
