@@ -17,7 +17,7 @@ rails db:migrate && rails db:seed
 rails s -p 3000
 ```
 
-Open another terminal and from the root directory, navigate to the frontend directory, install the dependencies, and start the client server:
+Open another terminal and from the root directory, navigate to the frontend directory, install the included code packages, and start the client server:
 
 ```
 cd frontend
